@@ -1,0 +1,485 @@
+
+################################################################################
+CAP-01:
+
+print('Hello Python world!')
+    função print que imprime na tela: Hello Python world!
+
+
+################################################################################
+CAP-02:
+
+variavel = "Hello Python world"
+    variavel que recebe a string "Hello Python world"
+
+'\n'
+    pula linha do texto
+
+'\t'
+    da tabulação em texto
+
+metodo.title()
+    método title que altera a primeira letra maiuscula de todas palavras
+
+metodo.upper()
+    método upper que muda tudo maiúsculo
+
+metodo.lower()
+    método lower que muda tudo minúsculo
+
+variavel = f"{variavel1} : {variavel2}"
+    f-> comentário formatado que recebe em texto a variavel1 e variavel2
+
+metodo.rstrip()
+    método rstrip que elimina espaços a direita do texto
+
+metodo.lstrip()
+    método lstrip que elimina espaços a esquerda do texto
+
+metodo.strip()
+    método strip que elimina espaços a dos dois lados do texto
+
+metodo.removeprefix('https://')
+    método removeprefix que remove do texto o 'https://' no inicio do texto
+
+metodo.removesuffix('.txt')
+    método removesuffix que remove do texto o '.txt' no fim do texto
+
++ 
+    soma ex: 2 + 2 -> 4
+
+- 
+    subtrai ex: 3 - 2 -> 1
+
+* 
+    multiplica ex: 2 * 3 -> 6
+
+/ 
+    divide ex: 3 / 2 -> 1.5
+
+** 
+    expoente ex: 3 ** 2 -> 9
+
+valor_grande = 14_000_000_000
+    variavel fica com valor sem os underline -> 14000000000
+
+x, y, z = 1, 2, 3
+    declara 3 variaveis cada um com seu valor
+    x = 1, y = 2 e z = 3
+
+VARIAVEL_CONSTANTE = 5000
+    variavel constante que não modifica 
+    ou não deve modificar no programa o valor
+
+# 
+    Comentário para programa não copila tudo que estiver na linha do #
+
+
+################################################################################
+CAP-03:
+
+listas = ['valor1', 'valor2', 3]
+    lista que contem valores atribuitos
+print(listas[0])
+    imprime: valor1 -> o primeiro valor da lista que inicia com 0
+print(lista[-1])
+    imprime: 3 -> o ultimo valor da lista
+lista[0] = 'valor3'
+    atribui 'valor3' na posição 0 da lista
+
+lista.append('valor4')
+    método append que adciona no fim da lista o 'valor4' sem alterar nada na lista
+
+lista_vazia = []
+    lista sem conteúdo
+
+lista.insert(0 , 'valor5')
+    método insert que insere na posição 0 da lista o 'valor5' e arrasta para a direita
+    todos os outros itens na lista
+
+del lista[0]
+    instrução del que deleta na posição 0 da lista o conteúdo, é possível
+    deletar de qualquer posição da lista
+
+variavel = lista.pop()
+    método pop que remove da lista o conteúdo da ultima posição podendo atribuir
+    a uma variável
+
+lista.remove('elemento')
+    método remove que remove se existir o 'elemento' de uma lista
+lista.remove(variavel)
+    método remove que remove da lista o que estiver na variavel se existir
+
+lista.sort()
+    método sort que muda a lista em ordem alfabética
+lista.sort(reverse = True)
+    método sort que muda a lista em ordem alfabética contraria
+
+print(sorted(lista))
+    função sorted que irá mostrar a lista em ordem alfabética mas não altera a 
+    lista
+print(sorted(lista, reverse = True))
+    função sorted que irá mostrar a lista em ordem alfabética contrária mas não 
+    altera a lista
+
+lista.reverse() 
+    método reverse que inverte toda a lista de posição, ex:
+        lista = [1, 2, 3] fica após o metodo lista = [3, 2, 1]
+
+print(len(lista))
+    função para imprimir o tamnaho de quantidade de conteudo de uma lista
+
+
+################################################################################
+CAP-04:
+
+for elemento in lista:
+    print(elemento)
+    loop for que irá percorrer os elementos da lista até o fim dela em um loop e irá 
+    imprimir todos elementos da lista
+
+for x in range(1,5):
+    loop for que atribui valor até ao elemento x de 1 até 4
+
+range(6)
+    função range que inicia com 0 o valor até 5
+
+lista = list()
+    função list cria uma lista em branco
+
+lista = list(range(6))
+    list+range cria uma lista com [0, 1, 2, 3, 4, 5] estes elementos
+
+range(2,11,2)
+    função range inicia no 2 com intervalos de 2 em 2 até 10 se atribuir a uma lista criara
+    uma lista assim [2, 4, 6, 8, 10]
+
+min(variavel_string) ou min(lista)
+    função min localiza o menor valor em uma variavel string ou lista
+
+max(variavel_string) ou max(lista)
+    função max localiza o menor valor em uma variavel string ou lista
+
+sum(lista)
+    fução sum soma os valores de uma lista que contem elementos int/float
+
+lista = [valor for valor in range(1,6)]
+    cria uma lista com elementos [1, 2, 3, 4, 5], chamada de list copmprehension
+    obs o loop for dentro da lista não termina com ':'
+
+lista[0:3] -> tres primeiros elementos de uma lista
+lista[1:4] -> segundo elemento da lista até o quarto elemento da lista
+lista[:4]  -> primeiro elemento da lista até o quarto elemento da lista
+lista[2:]  -> terceiro elemento da lista até o final
+lista[-3:] -> três ultimos elementos da lista
+lista[:-2] -> do inicio da lista menos os dois ultimos elemento da lista
+
+tupla = (3, 4)
+    tupla é igual a lista, porem não pode alterar os elementos dentro da tupla
+tupla = (3, )
+    tupla com um elemento
+
+
+################################################################################
+CAP-05:
+
+==
+    verificação se há igualdade, com retorno True/False
+!=
+    verificação de 'não igualdade', com retorno True/False
+<
+    verificação de 'menor que', com retorno True/False
+<=
+    verificação de 'menor ou igual que', com retorno True/False
+>
+    verificação de 'maior que', com retorno True/False
+>=
+    verificação de 'maior ou igual que', com retorno True/False
+
+if variavel == True:
+    se a variavel 'condição' for igual a verdade(True) então executa o comando identado no if
+else:
+    senão (condição == False/diferente de True) então executa o comando identado
+    no senão
+
+(var1 == 1) and (var2 <= 0) -> verificação and significa 'e'
+(var1 <= 2) or (var2 != 1) -> verificação or significa 'ou'
+variavel in lista -> verificação in sifnifica 'em'
+variavel not in lista verificação not in sifnifica 'não está em'
+
+variavel = True -> valor booleano True 'Verdade'
+variavel = False -> valor booleano False 'Falso'
+
+elif
+    sequencia de teste do if-elif-else
+    exemplo:
+        if condição:
+            execute 1º comando
+        elif condição2:
+            execute 2º comando
+        else:
+            execute 3º comando
+
+
+################################################################################
+CAP-06:
+
+dicionario = {'indice1': 'valor', 'indice2': 'valor',}
+    dicionário são formado por chave e conteseus indices nomeado e seus valores
+dicionario['indice3"] = 'valor'
+    podendo também incluir novos indices evalores
+print(dicionario['indice1']) 
+    ou até acessar outros indices
+del dicionario['indice3'] 
+    deleta 'indice3' e seu valor que foi associado
+
+dicionario.get('chave_dicionario', 'chave-inexistente')
+    método get se existir chave no dicionário ou 'chave-inexistente' que o
+    elemento não existe, possível atribuir a variavel tudo isso no print, caso
+    omita o 'chave-inexistente' do get, e não existir o valor da 
+    'chave_dicionario', retornará None que significa nenhum valo
+
+for chave, valor in dicionario.items():
+    print(f'{chave}: {valor}')
+    loop for com método do dicionario items que irá imprimir a chave e seus
+    valores
+for chave in dicionario.key():  ou  for chave in dicionario:
+    loop for com método key ou sem nada serve para retornar as chaves de um 
+    dicionário, essa ferramenta também pode ser utilizado no if ex:
+        if 'nome_chave' not in dicionario.key():
+            se não encontrar no dicionario a chave de nome 'nome_chave' irá 
+            fazer algo do que está identado no if
+for valor in dicionario.values():
+    loop for com metodo values para mostrar os valores do dicionario
+for valores in set(dicionario.values()):
+    loop for com função set para tirar valores repetidos de um dicionario, 
+    muito util para atribuir a uma lista ao qual não quer extrari valores 
+    repetidos
+
+print('quando queremos continuar '
+    'escrevendo basta fazer isso')
+    função print abertura e fechamento de aspas em um print podendo usar mais de
+    uma linha e abrindo uma nova aspas 
+
+
+################################################################################
+CAP-07:
+
+variavel = input('recebe entrada de usuário ')
+    função input pausa o programa para pegar informações que o usuário digitar e
+    atribui a variavel
+
+variavel = 'texto atribuido a variavel'
+variavel += '\noutro texto atribuido a mais'
+    o += junta a variavel da primeira linha com a segunda
+
+variavel = '123'
+variavel = int(variavel)
+    função int para atribuir a variavel que antes era string para inteiro
+
+variavel = 3 % 2
+    módulo % atribui a variavel o valor do resto da divição de 3 e 2 que é = 1
+
+variavel = 0
+while variavel != 3:
+    print(variavel)
+    variavel += 1
+    loop while, enquanto a condição 'variavel != 3' não retornar True e for 
+    False irá executar esse loop while que irá imprimir o valor da variavel e 
+    depois adicionar mais um a ela, resultado final seria 0, 1, 2 não imprime o 
+    3 pois enquanto o numero for diferente de 3 é a condição do loop while
+
+break
+    instrução direciona o fluxo do programa, de mode geral interrompe os loops
+
+continue
+    instrução que para da onde está a instrução parecido com o break porem volta
+    ao inicio do loop continuando e não saindo do loop
+
+CTRL + C 
+    comando que impede o terminal que está rodando em um loop infinito
+
+
+################################################################################
+CAP-08:
+
+# Programa completo com função
+def funcao():
+    '''comentario chamado de docstring para função'''
+    print('Retorno da função')
+# Chamada da função
+funcao()
+
+def funcao() -> definindo uma função sem parametro
+
+() -> parametro de uma função
+
+"""...""" ou '''...''' 
+-> comentario docstring, normalmente usado para explicar o funcionamento de 
+    uma função, pode ser escrito em mais de uma linha
+funcao()
+-> chamada da função que nesse exemplo só retorna o print imprimindo na tela
+    'Retorno da função'
+
+# Programa completo com função que contem parâmetro
+def funcao(parametro):
+    '''Função que retorna o parâmetro alterado para "retorno parâmetro"'''
+    parametro = 'retorno parâmetro'
+    return parametro
+# Chamada da função com envio de argumento
+parametro = funcao('envio argumento')
+print(parametro)
+
+(parametro) -> parametro para definir o que vai ser atribuido a função, pode ser
+enviado valores, variavel, lista, tupla, dicionario.
+Podemos definir quantos parâmetros for necessário para a função ex:
+def funcao(param1, param2, param3='valor_padrao'):
+-> param3='valor_padrao' ->caso queira definir um valor default para a função 
+podendo ser trocado na chamada do argumento da função
+
+funcao('envio argumento')
+-> chamada da função que nesse exemplo envia um argumento com nome 
+"envio argumento" para a função que só retorna o print imprimindo na 
+tela 'Retorno da função'
+
+return parametro
+-> retorno da função no caso irá retornar a alteração atribuida ao parâmetro
+parametro = 'retorno parâmetro'
+
+funcao(lista[:])
+-> chamada de uma função enviando uma cópia da lista para não haver alteração 
+na lista do programa que está chamando a função
+
+def funcao(*tupla_variavel_lista_dicionario):
+    return tupla_variavel_lista_dicionario
+armazena na função uma tupla, podendo retornar ela com vários argumentos ao ser
+chamada ex:
+tupla = funcao('valor1', 'valor2') -> irá retornar 
+('valor1', 'valor2')
+
+def funcao(**dicionario_tupla_variavel_lista):
+    return dicionario_tupla_variavel_lista
+armazena na função um dicionario, podendo retornar ela com vários argumentos ao 
+ser chamada ex:
+dicionario = funcao(
+    indice1 = 'valor1, 
+    indice2 = 'valor2'
+) -> irá retornar 
+{'indice1': 'valor1', 'indice2': 'valor2'}
+
+import nome_modulo 
+-> serve para importar todo modulo "nome_modulo" de um 
+outro arquivo no programa atual que está trabalhando, pondendo chamar apenas 
+com o nome_modulo.nome_funcao()
+
+from nome_modulo import nome_funcao 
+-> serve para importar apenas a 
+função "nome_funcao" de outro arquivo no programa atual que estrá trabalhando, 
+podendo chamar a função apenas com o nome_funcao()
+
+from nome_modulo import nome_funcao as nf 
+-> serve para importar apenas a 
+função "nome_funcao" dando um apelido de "nf" de outro arquivo no programa atual
+ que estrá trabalhando, podendo chamar a função apenas com o nf()
+
+from nome_modulo import func1, func2, func3 
+-> serve para importar varias 
+funções apenas de outro arquivo no programa atual que estrá trabalhando, podendo 
+chamar cada uma função apenas com o func1() ou func2() ...
+
+import nome_modulo as nm 
+-> serve para importar apenas o módulo dando um 
+apelido de "nm" de outro arquivo no programa atual
+ que estrá trabalhando, podendo chamar as funções do mesmo apenas 
+ com o nm.funcao()
+
+from modulo import *
+-> copia todas as fuções para o modulo do arquivo atual que está trabalhando, 
+podendo chamar a função simplesmente pelo nome dela nome_funcao()
+
+
+################################################################################
+CAP-09:
+
+class NomeClasse:
+    '''Sobre o que é a classe'''
+    
+    def__init__(self, atributo1, atributo2):
+        self.atributo1 = atributo1
+        self.atributo2 = atributo2
+        self.atributo3 = 'valor3'
+
+
+    def metodo(self):
+        '''Explica o que o método faz'''
+        print('Ação do método')
+
+    def muda-atributo(self, valor_troca):
+        '''Troca  valor do atributo por valor_troca'''
+        self.atributo3 = valor_troca
+
+
+class NomeClasse:
+    Criação de uma classe simples
+
+def__init__(self, atributo1, ...):
+    Define os atributos padrões a serem passados como parâmetro ao ser instanciado ao objeto
+
+self.atributo3 = 'valor3' -> Define um valor com o nome 'valor3' para instancia
+
+def metodo(self):
+    ação de métodos que a classe faz
+
+def muda-atributo(self, valor_troca):
+    Método que recebe valor e troca o "atributo3"
+
+variavel = NomeClasse('arg1', 'arg2')
+    Instanciando a "variavel" a classe de "nomeClasse" e passando o 'art1' e 'arg2'.
+        OBS, pode usar váriaveis para se instanciado
+
+variavel.metodo() -> ação do que a classe faz chamando o método após instanciar
+
+variavel.muda_atributo('valor4') -> muda o valor de 'valor3' quando criada a instancia do 'atributo3' para 'valor4'
+
+class ClassePai:
+    '''Criando uma classe Pai'''
+    def__init__(self, atrib1):
+        self.atrib1 = atrib1
+        self.atrib2 = 'valor1'
+    
+    def metodo(self, valor_muda):
+        self.atrib2 = valor_muda
+
+class ClasseFilha(ClassePai):
+    '''Cria uma classe Filha que herda da ClassePai atributos e metodos'''
+    def__init__(self, atrib1):
+        super().__init__(atrib1)
+        self.atrib2 = 'valor2'
+
+class ClasseFilha(class)
+    Inicia a classe filha deve estar abaixo da classe pai, e dentro dos parentes informar a classe pai
+
+def__init__(self, atrib1):
+    Deve conter os mesmos atributos de uma classe pai
+
+super().__init__(atrib1)
+    função que possibilita a utilização de metodos e atributos da classe pai
+
+self.atrib2 = 'valor2'
+    atributo apenas da classe filha, podendo tbm criar metodos exclusivos para classe filha.
+
+def metodo_iguais_classepai_e_classefilha(self)
+    ao utilizar criar um metodo na classe filha com o mesmo nome do metodo existente na classe pai herdada é sobrescrito e ignorado o metodo pai se instanciado a filha.
+
+modulo random
+    from random import randint
+    print(randint(1,6))
+
+randint(1,6)
+-> função que irá trazer o numero de 1 a 6 aleatório essa funçao não necessario ser de 1 a 6
+
+    import random
+    tupla = ['a', 'b', 'c']
+    print(random.choice(tupla))
+random.choice(tupla) 
+-> essa função escolhe aleatóriamento dos valores atribuidos em uma tupla no caso podendo tbm ser usado como lista.

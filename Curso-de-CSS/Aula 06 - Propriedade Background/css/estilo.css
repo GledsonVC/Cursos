@@ -1,0 +1,46 @@
+/* Propriedade 'background' definir o fundo ou que fica atraz
+'background-color' define direto uma cor
+*/
+
+body {
+    background-color: #ccc;
+}
+
+.exemplo-back {
+    /* tamanho na vertical */
+    height: 600px;
+    /* definindo para a imagem de fundo não ser apliada 
+    podendo utilizar: 
+    cover para ampliar
+    contain para não amplicar */
+    background-size: contain;
+    /* cor de fundo
+    background-color: gray;
+    imagem definindo no fundo 
+    background-image: url("../img/background.jpg");
+
+    definindo para não se repetir a imagem 
+    podendo utilizar:
+    repeat-x para repetir do lado
+    repeat-y para repetir a baixo
+    
+    background-repeat: no-repeat;
+    definir a posição que quer incluir a imagem definida 
+    podendo utiliar: top, bottom, left, right 
+    background-position: center; */
+
+    /* toda parte superior poderia ser definido assim */
+    background: gray url(../img/background.jpg) no-repeat center;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: #a12e0e;
+}
+
+p {
+    color: rgb(93, 171, 15);
+}

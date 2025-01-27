@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo JS</title>
+    <style>
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Aprendendo JavaScript</h1>
+    <p id="texto"></p>
+
+    <!-- Click de mouse -->
+    <!-- quando der um click irá assumir o evento -->
+    <button onclick="eventoClick()">Disparado quando recebe um click<br>'onclick'</button>
+    <br><br>
+    <!-- quando der dois click irá assumir o envento -->
+    <button ondblclick="eventoDblClick()">Disparado quando click duplo<br>'ondblclick'</button>
+    <br><br>
+
+    <!-- ao passar o mouse -->
+    <!-- passando mouse sobre o objeto ele assume o evento e ao sair ele assume outro evento -->
+    <button onmouseover="onMouseOver()" onmouseout="OnMouseMouseOut()">
+        Disparado quando o mouse <b>está sobre o objeto</b>, 'onmouseover'<br>
+        Disparado quando o mouse <b>sai do objeto</b>, 'onmouseout'
+    </button>
+    <br><br>
+
+    <!-- ao mover o mouse dentro do elemento ele irá fazer o que determinar -->
+    <button onmousemove="onMouseMove()">
+        Disparado quando o mouse é movido no elemento<br>'onmousemove'<br>
+    </button>
+    <p id="moveMouseCriaParagrafo"></p>
+
+
+    <!-- ao clicar irá deixar o fundo preto-->
+    <button onmousedown="onMouseDown()" onmouseup="onMouseUp()">
+        Disparado quando o click do <b>botão for pressionado</b> 'onmousemove'<br>
+        Disparado quando o click do <b>mouse é solto</b> 'onmouseup'
+    </button>
+
+    <input type="text">
+
+
+
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

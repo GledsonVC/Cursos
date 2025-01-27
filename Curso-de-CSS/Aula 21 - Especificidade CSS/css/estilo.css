@@ -1,0 +1,19 @@
+#titulo{
+    background: blue;
+}
+
+h1.red{
+    background: green;
+}
+
+.red{
+    background: red;
+}
+
+h1{
+    background: yellow;
+}
+
+h1{
+    background: orange;
+}

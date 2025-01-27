@@ -1,0 +1,5 @@
+No Python, podemos ler arquivos com a biblioteca pathlib do Path.
+No Python, podemos utilizar o método .splitlines() para armazenar as linhas dos
+arquivos em de textos.
+No Python, podemos ler um arquivo pela metodo da Path.read_text() e salvar na 
+memoria.

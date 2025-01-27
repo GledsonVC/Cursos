@@ -1,0 +1,406 @@
+<!--tag "DOCTYPE" Para informado ao navegador o tipo de arquivo a ser lido, no caso tipo html-->
+<!DOCTYPE html>
+
+<!--Tag "html" para iniciar o site e definir a linguagem de escrida do site-->
+<html lang="pt-br">
+
+<!--Tag "head" de cabeçalho onde tudo isso só apresenta para o navegador-->
+
+<head>
+
+    <!--Meta tag de Padronização de caracteres mais utilizada -->
+    <meta charset="UTF-8">
+
+    <!--Meta tag utilizado devido a incompatibilidade de navegadores -->
+    <meta http-equiv="x-UA-Compatible" content="IE=edge">
+
+    <!--Meta tag utilizada para o site se adaptar o tamaho da tela do usuário-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Há tbm meta tags importantes exemplo-->
+    <!--Meta tag Legenda da sinopse do site-->
+    <meta name="description" content="Legenda da sinopse do meu site!">
+
+    <!--Meta para conter palavras chaves que sites de busca irão atribuit sobre o seu site-->
+    <meta name="keywords" content="sobre o site,conteudo,html,etc">
+
+    <!--Meta tag para definir o autor do site-->
+    <meta name="author" content="Gledson Vasconcellos Cavalheiro">
+
+    <!--Tag "title" do titulo do site-->
+    <title> Título do site no navegador</title>
+</head>
+
+<!--Tag body do inicio do que irá apresentar no seu site-->
+
+<body>
+    <!--Tag de títulos e suas relevancias de h1 até h6-->
+    <h1>Titulo 1</h1>
+    <h2>Titulo 2</h2>
+    <h3>Titulo 3</h3>
+    <h4>Titulo 4</h4>
+    <h5>Titulo 5</h5>
+    <h6>Titulo 6</h6>
+
+
+    <!--Tag de Paragrafo-->
+    <p>Paragrafo</p>
+
+    <!--Tag de Paragrafo com lorem no vscode pode usar (p>lorem+enter)-->
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam officia obcaecati iusto eos ducimus aut
+        repellat recusandae dignissimos, veniam ab amet doloremque itaque dolor voluptatibus inventore, cumque quas
+        necessitatibus repellendus?</p>
+
+    <!--p*3 vscode faz 3 paragrafos
+    <p></p>
+    <p></p>
+    <p></p>
+    -->
+
+
+    <p>
+        <!--Tag "b" para deixar negrito.-->
+        Deixar palavra escrita em <b>NEGRITO</b>
+
+        <!--Tag "br" vai para linha de baixo.-->
+        <br>
+
+        <!--Tag "strong" para dar enfase em uma palavra diferente de negrito na leitura de um site-->
+        Deixar palavra com <strong>ENFASE</strong> no texto <br>
+
+        <!--Tag "hr" inclue uma linha para separar o texto-->
+        <hr>
+
+        <!--Tag "i" deixa palavra em itálico-->
+        Deixar palavra em <i>ITÁLICO</i> <br>
+
+        <!--Tag "u" deixa palavra em sublinhado-->
+        Deixar palavra em <u>SUBLINHADO</u> <br>
+
+        <!--Tag "small" deixa palavra menor-->
+        Deixar palavra em <small>MENOR</small> <br>
+
+        <!--Tag "del" deixa palavra em riscada(deletada)-->
+        Deixar palavra em <del>DELETADA</del> <br>
+
+        <!--Tag "sup" escreve na parde superior-->
+        Deixa escrita <sup>SOBRESCRITO</sup> ou número 2<sup>3</sup> = 8 <br>
+        <!--Tag "sub" escreve na parde inferior-->
+        Deixa escrita <sub>SUBSCRITO</sub> ou número H<sub>2</sub>O = Água<br>
+
+        <!--Tag "mark" texto marcado-->
+        Deixar palavra <mark>MARCADO</mark> <br>
+
+        <!--Tag "abbr" utilizado para abreviações com o propriedade 'title' escrevendo a respeito da abreviação-->
+        Estamos aprendendo <abbr title="Hyper Text Murkup Language">HTML</abbr>
+
+        <!--Tag "address" utilizada para colocar o endereço, não apenas para fisico, pode ser endereço url de site-->
+    <address>Rua do Exemplo, 123, Centro, Cidade.</address>
+    </p>
+    <p>
+        <hr>
+        <!--Tag "cite" normalmente utilizado para definir obra literária-->
+        O livro <cite>Discurso do Método.</cite> de René Descartes onde escreveu,
+
+        <!--Tag "q" descreve algo da literatura dita ou impressa deixando emtre aspas duplas-->
+        <q>Penso, logo existo</q>
+
+        <!--Tag "blockqhote" utilizada para descrevendo um destaque sobre a obra ou explicando e dando uma margem-->
+    <blockquote>
+        É uma frase icônica de autoria do filósofo francês René Descartes (1596 – 1650).
+    </blockquote>
+    <hr>
+    </p>
+
+    <p>
+        <!--Tag "bdo" com propriedade de 'dir'="ltr"definindo da direita para esquerda ou "rtl"esquerda para direita-->
+        <bdo dir="ltr">Texto normal</bdo> <br>
+        <bdo dir="rtl">Texto invertido</bdo> <br>
+
+        <hr>
+        <!--Tag "a" serve para redirecionamento de arquivo ou outra pagina de internet com a propriedade 'href='
+        Link Absolutos (URL ABSOLUTAS)
+        -->
+        <a href="https://google.com"> Link para ir para o google</a> <br>
+        <!--propriedade 'target'="_blank"-->
+        <a href="https://google.com" target="_blank"> Link para ir para o google em uma nova aba do navegador</a> <br>
+
+        <!--
+        Link relativos (URL RELATIVAS)
+        Ir para outra pagina do projeto-->
+        <a href="sobre.html">Sobre</a> <br>
+
+        <!--Ir para outra pagina do projeto dentro de uma pasta-->
+        <a href="./pasta/arquivo.html">Arquivo dentro de pasta</a>
+        <!--Nesse caso temos que voltar pasta para acessar o index.html
+        voltado assim
+        <a href="../index.html">Voltar para principal</a>
+        -->
+        <hr>
+
+        <!--Tag "img" com propriedade "src" onde define um caminho
+        Tag de caminho absoluto que depende de site de terceiro
+        propriedade "width" para largura em pixel e 
+        propriedade "height" para definir a altura em pixel
+        propriedade "alt" utilizado para explicar sobre o que é a foto utilizado para deficientes visuais e 
+        sites sabem sobre o que é a foto
+        -->
+        <img src="https://i.pinimg.com/280x280_RS/d8/6a/a7/d86aa7ce8e00ce9468b33ce8fdda4e23.jpg" width="200"
+            height="200" alt="Foto pessoal com o filho nos braços"> <br>
+
+        <!--caminho relativo salvo no próprio site imagemjpg -->
+        <img src="./img/perfil.jpg" alt="Foto pessoal com o filho nos braços"> <br>
+
+        <!--caminho relativo salvo no próprio site  icone.png-->
+        <img src="./img/coracao.png" alt="Icone de coração" width="20">
+        ICONE DE CORAÇÃO.PNG <br>
+
+        <!--caminho relativo salvo no próprio site imagem.gif-->
+        <img src="./img/caveira.gif" alt="Caveira dançando" width=200>
+        <br>
+        IMAGEM DE CAVEIRA.GIF <br>
+
+        <!--Incluir uma imagem mapeada com link externo usando 
+        https://www.image-map.net/ para fazer a imagem map, 
+        e atribuindo a propriedade 'usemap' na tag img apontando para o mapeamento feito dela abaixo
+        -->
+        <img src="./img/htmlcssjavascript.png" alt="Imagem com links externos" usemap="#image-map">
+        <!-- Image Map Generated by http://www.image-map.net/ 
+        Map para mapiar a imagem com links
+        -->
+        <map name="image-map">
+            <area target="_blank" alt="HTML" title="HTML" href="https://www.w3schools.com/html/default.asp"
+                coords="17,20,25,100,56,110,87,100,94,20" shape="poly">
+            <area target="_blank" alt="CSS" title="CSS" href="https://www.w3schools.com/css/default.asp"
+                coords="208,21,214,98,245,111,278,100,284,21" shape="poly">
+            <area target="_blank" alt="JavaScript" title="JavaScript" href="https://www.w3schools.com/js/default.asp"
+                coords="387,30,484,98" shape="rect">
+        </map>
+        <br>
+        IMAGEM COM LINK EXTERNOS PARA OS ICONES
+        <br>
+
+        <!--Imagem com link interno-->
+        <a href="sobre.html">
+            <img src="./img/perfil.jpg" alt="Foto pessoal com o filho nos braços que redireciona para sobre o site">
+        </a>
+        <br>
+        IMAGEM COM LINK INTERNOS
+        <hr>
+
+    </p>
+
+    <p>
+    <h2>Tabelas</h2>
+    <!--
+    Tag "table" inclui uma tabela 
+    propriedade 'width' definindo 100% da tela
+    propriedade 'border' definindo uma borda de 1 pixel
+    css atribuido com propriedade 'style'
+    -->
+    <table width="100%" border="1" style="text-align: center;">
+        <!--Tag "tr" utilizado para fazer linhas normalmente para colocar os titulos de uma tabela-->
+        <tr>
+            <!--Titulos da coluna-->
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Peso</th>
+        </tr>
+        <tr>
+            <!--Tag "td" utilizado para colocar as informações-->
+            <td>Fulano</td>
+            <td>42</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>Sicrano</td>
+            <td>32</td>
+            <td>86</td>
+        </tr>
+    </table>
+    <br>
+    <a href="./exercicio/tabela.html">Exercício de tabela</a>
+    <hr>
+
+
+    <h2>Listas Não Ordenadas</h2>
+
+    <!--Tag "ul" utilizado para criar lista não ordenadas-->
+    <ul>
+        <!--Tag "li" utilizada para incluir os itens da lista-->
+        <li>Arroz</li>
+        <li>Feijão</li>
+        <li>Macarrão</li>
+    </ul>
+
+    <h2>Listas Ordenadas</h2>
+
+    <!--Tag "ol" utilizado para criar lista ordenadas-->
+    <ol>
+        <!--Tag "li" utilizada para incluir os itens da lista-->
+        <li>Arroz</li>
+        <li>Feijão</li>
+        <li>Macarrão</li>
+    </ol>
+
+    <hr>
+
+    <!--Tag "iframe" serve para criar uma pagina de navegador dentro da sua pagina-->
+    <h2>Iframe pagina interna</h2>
+    <iframe src="./pasta/arquivo.html" width="100%" title="iframe-interno"></iframe>
+
+
+    <h2>Iframe pagina externa</h2>
+    <!--Iframe de pagina externa-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Z0EN_AQgiQA?si=kA-IpA25EO2PKy_y"
+        title="Vídeo-do-youtube" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h2>Iframe com link para ser aberto na propria pagiana</h2>
+    <!--Link1 apontando com target para o 'target="meu-iframe"'-->
+    <a href="sobre.html" target="meu-iframe">Abrir sobre.html no iframe abaixo</a>
+    <br>
+    <!--Link2 apontando com target para o 'target="meu-iframe"-->
+    <a href="pasta/arquivo.html" target="meu-iframe">Abrir pasta/arquivo.html no iframe abaixo</a>
+    <!--Iframe dos link acima que foi definido com o nome na propriedade name="meu-iframe"-->
+    <iframe width="100%" style="border: none;" src="" name="meu-iframe" title="Iframe de exemplo"></iframe>
+    </p>
+
+    <p>
+        <hr>
+    <h2>Formulário diversos</h2>
+    <!--Tag "form" tag para abrir formulário-->
+    <form>
+        <!--Tag "label" são utilizados para legenda do formulário  
+        propriedade 'for=""' para redirecionamento do campo-->
+        <label for="campo_texto">Texto: </label>
+        <!--Tag "input" 
+        propriedade 'type="text"'Dados de entrada do tipo texto.
+        propriedade 'id=""' para definir uma identidade 
+        propriedade 'placeholder=""' para auxiliar usuário que está navegando o que é para digitar
+        -->
+        <input id="campo_texto" type="text" placeholder="Digite aqui seu texto">
+        <br><br>
+
+        <label for="campo_email">Email: </label>
+        <!--
+        propriedade 'type="email' utilizado para preencher e-mail
+        propriedade 'required' para obrigar o preenchimento antes de ser enviado o formulário no botão
+        -->
+        <input id="campo_email" type="email" placeholder="Digite seu e-mail" required>
+        <br><br>
+
+        <label for="campo_senha">Senha: </label>
+        <!--propriedade 'type="password' utilizado para preencher senha onde não é visivel o que foi descrito-->
+        <input id="campo_senha" type="password" placeholder="Digite sua senha" required>
+        <br><br>
+
+        <h2>Formulário selecionavel</h2>
+        <!--pripriedade 'type="radio"' para escolher entre um ou outro nas variaveis-->
+        <input type="radio" name="variavel" id="x">
+        <label for="x">X</label>
+        <input type="radio" name="variavel" id="y">
+        <label for="y">Y</label>
+        <br><br>
+        <hr>
+
+
+        <h2>Formulário selecionavel multiplas escolhas</h2>
+        <!--pripriedade 'type="checkbox"' para escolher entre um e outro nas variaveis podendo marcar quantos quiser-->
+        <input type="checkbox" name="variavel" id="cx">
+        <label for="cx">X</label>
+        <input type="checkbox" name="variavel" id="cy">
+        <label for="cy">Y</label>
+        <input type="checkbox" name="variavel" id="cz">
+        <label for="cz">Z</label>
+        <br>
+        <br><br>
+        <hr>
+
+        <h2>Selecionaveis</h2>
+        <!--Tag "select" para criar tabela selecionáveis-->
+        <select name="Letras" id="">
+            <!--Tag "option" defini as opções possíveis para selecionar 
+            propriedade 'selected disabled' para iniciar com essa opção selecionada de inicio
+            propriedade value="" para definir o valor-->
+            <option selected disabled value="">Selecione a opção</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+            <option value="D">D</option>
+        </select>
+        <br><br>
+        <hr>
+
+        <h2>Campo de texto para digitar mensagens</h2>
+        <!--Tag "textarea" Utilizado para preencher texto que deseja ser enviado como mensagem-->
+        <textarea name="mensagem" placeholder="Envie um texto/mensagem" rows="15" cols="55"></textarea>
+
+        <h2>Botão enviar formulário</h2>
+        <!--
+        propriedade 'type="submit"' para criar um botão de envio de formulário
+        propriedade 'value=""' para definir uma descrição para o botão de envio de formulário-->
+        <input type="submit" value="Enviar Formulário">
+        <br><br>
+        <hr>
+    </form>
+
+    <h2>Botão simples</h2>
+    <label for="">Gostou do site:</label>
+    <!--Tag "button" cria um botão simples-->
+    <button>Sim</button>
+    <!--Simbolo '&nbsp;' utilizada para colocar um espaço-->
+    &nbsp;
+    <button>Não</button>
+    <br>
+    </p>
+
+    <p>
+        <hr>
+    <h2>Áudio de link Local</h2>
+    <!--Tag 'audio' utilizada para incluir áudio
+        propriedade controls para apresentar um controle de áudio-->
+    <audio controls>
+        <source src="./audio/Internet.mp3" type="audio/mpeg">
+    </audio>
+    <p>Som antigo onde utilizava para se conectar na internet COM opção de download</p>
+
+    <!--propriedade 'controlsList="nodownload"' para não permitir download no controle de audio-->
+    <audio controls controlsList="nodownload">
+        <source src="./audio/Internet.mp3" type="audio/mpeg">
+    </audio>
+    <p>Som antigo onde utilizava para se conectar na internet SEM opção de download</p>
+
+    <h2>Áudio de link Externo</h2>
+    <!--Tag 'audio' utilizando link de projeto externo-->
+    <audio controls controlsList="nodownload">
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    </audio>
+    <p>Som de audio de site/link externo</p>
+    </p>
+
+    <p>
+        <hr>
+    <h2>Video de link Local</h2>
+    <!--Tag 'video' utilizada para incluir video
+        propriedade 'poster=""' para definir uma imagem inicial antes de rodar o video
+        -->
+    <video poster="./img/perfil.jpg" width="100%" controls>
+        <source src="./video/nado-piscina.mp4" type="video/mp4">
+    </video>
+
+    <h2>Video iniciando automático</h2>
+    <!--Tag 'video' utilizada para incluir video
+        propriedade 'autoplay' para iniciar vídeo automático. não são todos navegador que funciona
+        propriedade 'disablepictureinpicture' para desabilitar para não ver picture em picture
+        propriedade 'controlsList="nofullscreen"' desabilita  permitir ver o vídeo em tela cheia
+        -->
+    <video width="100%" autoplay controls disablepictureinpicture controlsList="nodownload nofullscreen">
+        <source src="./video/nado-piscina.mp4" type="video/mp4">
+    </video>
+    </p>
+
+</body>
+
+</html>

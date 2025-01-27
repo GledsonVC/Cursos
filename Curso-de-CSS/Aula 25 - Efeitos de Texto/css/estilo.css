@@ -1,0 +1,31 @@
+h1 {
+    text-shadow: 2px 2px 5px red;
+}
+
+.branco {
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+.multipla {
+    color: black;
+    text-shadow: 0 0 3px red, 2px 2px 5px yellow;
+}
+
+.caixa {
+    text-align: center;
+    width: 40%;
+    height: auto;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.reduzido{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.caixa:hover .reduzido{
+    white-space: normal;
+}

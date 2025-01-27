@@ -1,0 +1,13 @@
+/* Propriedade 'color' definida para incluir cor em texto 
+podendo utilizar nome da cor hexadecimal e rgb */
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: #a12e0e;
+}
+
+p {
+    color: rgb(93, 171, 15);
+}

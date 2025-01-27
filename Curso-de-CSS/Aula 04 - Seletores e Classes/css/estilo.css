@@ -1,0 +1,42 @@
+/* coringa-> todos elementos da pagina assumem */
+* {
+    /* Magem */
+    padding: 20px;
+}
+
+/* tag irá assumir o que estiver entre chaves */
+body {
+    /* Cor de fundo */
+    background-color: #ccc;
+}
+
+
+
+/* Classe de tag com nomenclatura vermelho irá assumir */
+.vermelho {
+    /* texto em vermelho */
+    color: red;
+}
+
+.center {
+    /* texto alinhado ao centro */
+    text-align: center;
+}
+
+.fonte-30 {
+    /* tamanho da fonte = 30px */
+    font-size: 30px;
+}
+
+/* id de tag com nomenclatura teste irá assumir */
+#teste {
+    color: blue;
+    background-color: yellow;
+}
+
+/* definindo para duas Tag 'h1' e 'h2' em conjunto, pode utilizar tbm outros tipos de tag */
+h1,
+h2 {
+    background-color: black;
+    color: white;
+}

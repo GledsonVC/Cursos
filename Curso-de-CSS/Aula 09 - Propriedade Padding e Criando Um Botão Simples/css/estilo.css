@@ -1,0 +1,62 @@
+/* Propriedade 'background' definir o fundo ou que fica atraz
+'background-color' define direto uma cor
+*/
+
+body {
+    background-color: #ccc;
+}
+
+.exemplo-back {
+    /* tamanho na vertical */
+    height: 100px;
+    background-size: contain;
+    background: gray url(../img/background.jpg) no-repeat center;
+    margin-bottom: 100px;
+}
+
+h1 {
+    color: white;
+    border-top: 5px solid red;
+    border-bottom: 5px double green;
+    border-left: 5px groove blue;
+    border-right: 5px dashed yellow;
+    border-radius: 10px;
+    text-align: center;
+    background: black;
+    /* 
+    margin-top: 30px;
+    margin-bottom: 150px;
+    margin-left: 20px;
+    margin-right: 70px; 
+    */
+    margin: 30px 70px 150px 20px;
+    /* 
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+    padding-right: 10px; 
+     */
+    padding: 50px 70px 20px 10px;
+}
+
+h2 {
+    color: #a12e0e;
+}
+
+p {
+    color: rgb(93, 171, 15);
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+.botao{
+    margin-left: 33%;
+    background: green;
+    color: white;
+    padding: 30px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.botao:hover{
+    background: blue;
+}
