@@ -1,3 +1,4 @@
+<base target="_blank">
 # Curso-de-HTML
 
 Desenvolvendo HTML com lembretes para o curso

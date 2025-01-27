@@ -1,3 +1,4 @@
+<base target="_blank">
 # Curso-de-CSS
 
 Desenvolvendo CSS com lembretes para o curso

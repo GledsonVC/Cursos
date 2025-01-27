@@ -1,3 +1,4 @@
+<base target="_blank">
 ## Python-PensarCurso
 Curso feito de Python pelo site
 
