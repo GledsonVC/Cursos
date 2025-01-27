@@ -6,17 +6,17 @@ Estudo do Livro Curso Intensivo de Python
 
 
 
-## Curso-de-HTML [![HTML](https://skillicons.dev/icons?i=html)](https://github.com/GledsonVC/Cursos/tree/main/Curso-de-HTML)
+## Curso-de-HTML [![HTML](https://skillicons.dev/icons?i=html)](https://github.com/GledsonVC/Cursos/tree/main/01-Curso-de-HTML)
 Desenvolvendo HTML com lembretes para o curso
 
 
 
-## Curso-de-CSS [![CSS](https://skillicons.dev/icons?i=css)](https://github.com/GledsonVC/Cursos/tree/main/Curso-de-CSS)
+## Curso-de-CSS [![CSS](https://skillicons.dev/icons?i=css)](https://github.com/GledsonVC/Cursos/tree/main/02-Curso-de-CSS)
 Desenvolvendo CSS com lembretes para o curso
 
 
 
-## Curso-de-JS [![JavaScript](https://skillicons.dev/icons?i=js)](https://github.com/GledsonVC/Cursos/tree/main/Curso-de-JS)
+## Curso-de-JS [![JavaScript](https://skillicons.dev/icons?i=js)](https://github.com/GledsonVC/Cursos/tree/main/03-Curso-de-JS)
 Desenvolvendo JS com lembretes para o curso
 
 ## Python-PensarCurso [![Python](https://skillicons.dev/icons?i=py)](https://github.com/GledsonVC/Cursos/tree/main/Curso-pensarcursos)
