@@ -19,3 +19,12 @@ Desenvolvendo CSS com lembretes para o curso
 ## Curso-de-JS
 Desenvolvendo JS com lembretes para o curso
 [![JavaScript](https://skillicons.dev/icons?i=js)](https://github.com/GledsonVC/Cursos/tree/main/Curso-de-JS)
+
+
+## Curso-de-JS
+Desenvolvendo JS com lembretes para o curso
+[![JavaScript](https://skillicons.dev/icons?i=js)](https://github.com/GledsonVC/Cursos/tree/main/Curso-de-JS)
+
+## Python-PensarCurso
+Curso feito de Python
+[![Python](https://skillicons.dev/icons?i=py)](https://github.com/GledsonVC/Cursos/tree/main/Curso-pensarcursos)
