@@ -120,6 +120,15 @@ ele deverá imprimir o balanço geral do banco, senão ele entrá em loop.
 """
 
 # eu fiz
+
+# Contas do banco
+'''registro do banco'''
+lista_contas = ['000001', '000002', '000003']
+
+# Valor das contas seguindo indice das lista de contas
+valor_contas = [100.00, 200.00, 300.00]
+
+
 # Salda se não deseja criar a conta ou inicia o processo de criar conta 
 def saldacao():
     '''O programa começa perguntando se o usuário quer criar uma conta'''
@@ -149,6 +158,8 @@ def criar_conta():
 
 # se a conta já existe na lista de contas vai para deposito senão ele cria a conta com valor 0.00 e pergunta quanto será depositado
 def verifica_conta(conta):
+    # Declarando variavel globais
+    global lista_contas, valor_contas
     '''e, então, se o número não existir no registro do banco,'''
     if conta in lista_contas:
         print(conta, "Conta existente no cadastro do banco.")
@@ -172,6 +183,8 @@ def verifica_conta(conta):
 
 # Acrescenta valor a conta 
 def deposito_conta(conta, valor_a_deposito):
+    # Declarando variavel globais
+    global lista_contas, valor_contas
     indice_conta = 0
     # Varrendo para saber o indice da conta de todas as contas 
     while conta != lista_contas[indice_conta]:
@@ -189,15 +202,9 @@ def deposito_conta(conta, valor_a_deposito):
 
 # Verificar o saldo
 def verifica_saldo(indice_conta):
+    # Declarando variavel globais
+    global lista_contas, valor_contas
     print("Conta:",lista_contas[indice_conta], " Com saldo atual de R$ ", valor_contas[indice_conta])
-
-
-# Contas do banco
-'''registro do banco'''
-lista_contas = ['000001', '000002', '000003']
-
-# Valor das contas seguindo indice das lista de contas
-valor_contas = [100.00, 200.00, 300.00]
 
 # inicio do programa
 saldacao()
