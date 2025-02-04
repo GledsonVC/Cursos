@@ -1,5 +1,5 @@
 # Explicou como fazer para criar um arquivo ou ler o mesmo
-arquivo = open(+"Hugo.txt", 'w')
+arquivo = open("Hugo.txt", 'w')
 
 """
 w - write   -Escrever
