@@ -226,7 +226,7 @@ CAP-06:
 
 dicionario = {'indice1': 'valor', 'indice2': 'valor',}
     dicionário são formado por chave e conteseus indices nomeado e seus valores
-dicionario['indice3"] = 'valor'
+dicionario['indice3'] = 'valor'
     podendo também incluir novos indices evalores
 print(dicionario['indice1']) 
     ou até acessar outros indices
@@ -243,8 +243,8 @@ for chave, valor in dicionario.items():
     print(f'{chave}: {valor}')
     loop for com método do dicionario items que irá imprimir a chave e seus
     valores
-for chave in dicionario.key():  ou  for chave in dicionario:
-    loop for com método key ou sem nada serve para retornar as chaves de um 
+for chave in dicionario.keys():  ou  for chave in dicionario:
+    loop for com método keys ou sem nada serve para retornar as chaves de um 
     dicionário, essa ferramenta também pode ser utilizado no if ex:
         if 'nome_chave' not in dicionario.key():
             se não encontrar no dicionario a chave de nome 'nome_chave' irá 
@@ -362,7 +362,7 @@ def funcao(**dicionario_tupla_variavel_lista):
 armazena na função um dicionario, podendo retornar ela com vários argumentos ao 
 ser chamada ex:
 dicionario = funcao(
-    indice1 = 'valor1, 
+    indice1 = 'valor1', 
     indice2 = 'valor2'
 ) -> irá retornar 
 {'indice1': 'valor1', 'indice2': 'valor2'}
