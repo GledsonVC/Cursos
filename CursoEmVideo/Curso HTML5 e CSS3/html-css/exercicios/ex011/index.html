@@ -24,5 +24,21 @@
       />
       <img src="imagens/foto-g.png" alt="Imagem flexível" />
     </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a repreduzir áudios em HTML5.</p>
+    <!--
+    essa tag ficou limitada
+    <audio src="midia/happy-mistake.mp3" controls autoplay></audio>
+    DISPONÍVEL PARA OS NAVEGADORES MP3 WAV OGG 
+     -->
+    <audio preload="metadata" autoplay controls loop>
+      <source src="midia/guanacast-33.mp3" type="audio/mpeg" />
+      <source src="midia/guanacast-33.ogg" type="audio/ogg" />
+      <source src="midia/guanacast-33.wav" type="audio/wav" />
+      <p>
+        Infelizmente seu navegador não consegue reproduzir áudio.
+        <a href="midia/guanacast-33.mp3"></a>
+      </p>
+    </audio>
   </body>
 </html>
