@@ -1,0 +1,35 @@
+01 - História da Internet
+01-D
+02-B
+03-D
+04-A
+05-C
+06-B
+07-D
+08-C
+09-A
+10-D
+
+02 - Como funciona a Internet
+01-A
+02-B
+03-D
+04-B
+05-C
+06-A
+07-A
+08-D
+09-B
+10-C
+
+03 - Como funciona HTML e CSS
+01-C
+02-B
+03-A
+04-D
+05-B
+06-B
+07-A
+08-C
+09-D
+10-B
