@@ -118,3 +118,26 @@
 09-C
 10-B
 
+11 - Imagens dinâmicas, áudios e vídeos
+01-C
+02-B
+03-A
+04-D
+05-D
+06-C
+07-B
+08-A
+09-C
+10-B
+
+12 - Trabalhando com estilos
+01-
+02-
+03-
+04-
+05-
+06-
+07-
+08-
+09-
+10-
