@@ -131,6 +131,18 @@
 10-B
 
 12 - Trabalhando com estilos
+01-C
+02-A
+03-B
+04-D
+05-B
+06-A
+07-D
+08-C
+09-B
+10-C
+
+13 - Cores
 01-
 02-
 03-
