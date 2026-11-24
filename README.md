@@ -22,7 +22,7 @@ Desenvolvendo JS com lembretes para o curso
 
 Curso feito de Python
 
-## CursoEmVideo [![HTML](https://skillicons.dev/icons?i=html)](https://github.com/GledsonVC/Cursos/tree/main/CursoEmVideo/Curso%20de%20HTML5)[![CSS](https://skillicons.dev/icons?i=css)](https://github.com/GledsonVC/Cursos/tree/main/CursoEmVideo/Curso%20HTML5%20e%20CSS3/html-css)[![Git](https://skillicons.dev/icons?i=git)](https://github.com/GledsonVC/Cursos/tree/main/CursoEmVideo/Curso%20HTML5%20e%20CSS3/html-css)[![Github](https://skillicons.dev/icons?i=github)](https://github.com/GledsonVC/Cursos/tree/main/CursoEmVideo/Curso%20HTML5%20e%20CSS3/html-css)
+## CursoEmVideo [![HTML](https://skillicons.dev/icons?i=html)](https://github.com/GledsonVC/Cursos/tree/main/CursoEmVideo)[![CSS](https://skillicons.dev/icons?i=css)](https://github.com/GledsonVC/Cursos/tree/main/CursoEmVideo)[![Git](https://skillicons.dev/icons?i=git)](https://github.com/GledsonVC/Cursos/tree/main/CursoEmVideo)[![Github](https://skillicons.dev/icons?i=css)](https://github.com/GledsonVC/Cursos/tree/main/CursoEmVideo)
 
 Curso Em Vídeo de HTML CSS Git e GitHub
 
