@@ -1,10 +1,6 @@
 # Cursos
 
-Curso de várias fontes feitos.
-
-## CursoIntensivoDePython [![Python](https://skillicons.dev/icons?i=py)](https://github.com/GledsonVC/Cursos/tree/main/CursoIntensivoDePython)
-
-Estudo do Livro Curso Intensivo de Python
+##Curso de várias fontes feitos.
 
 ## 01-Curso-de-HTML [![HTML](https://skillicons.dev/icons?i=html)](https://github.com/GledsonVC/Cursos/tree/main/01-Curso-de-HTML)
 
@@ -26,6 +22,6 @@ Curso feito de Python
 
 Curso Em Vídeo de HTML CSS Git e GitHub
 
-## Python-PensarCurso [![Python](https://skillicons.dev/icons?i=py)](https://github.com/GledsonVC/Cursos/tree/main/Curso-pensarcursos)
+## CursoIntensivoDePython [![Python](https://skillicons.dev/icons?i=py)](https://github.com/GledsonVC/Cursos/tree/main/CursoIntensivoDePython)
 
-Curso feito de Python do livro
+Estudo do Livro Curso Intensivo de Python
