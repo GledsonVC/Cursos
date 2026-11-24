@@ -14,6 +14,6 @@ Curso Em Vídeo de HTML CSS Git e GitHub
 
 Estudo do Livro Curso Intensivo de Python
 
-## Programacaoweb [![HTML](https://skillicons.dev/icons?i=html)](https://github.com/GledsonVC/Cursos/tree/main/CursoProgramacaoweb) [![CSS](https://skillicons.dev/icons?i=css)](https://github.com/GledsonVC/Cursos/tree/main/CursoProgramacaoweb)[![JavaScript](https://skillicons.dev/icons?i=js)](https://github.com/GledsonVC/Cursos/tree/main/CursoProgramacaoweb)
+## Programacaoweb [![HTML](https://skillicons.dev/icons?i=html)](https://github.com/GledsonVC/Cursos/tree/main/CursoProgramacaoweb)[![CSS](https://skillicons.dev/icons?i=css)](https://github.com/GledsonVC/Cursos/tree/main/CursoProgramacaoweb)[![JavaScript](https://skillicons.dev/icons?i=js)](https://github.com/GledsonVC/Cursos/tree/main/CursoProgramacaoweb)
 
 Desenvolvendo HTML, CSS e JS com lembretes para o curso ProgramaçãoWeb
